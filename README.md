@@ -1,5 +1,4 @@
 # A Simple Meteor App 
-
 A simple meteor (https://www.meteor.com/) based app. Uses Iron router for routing.
 
 To run: 

@@ -4,8 +4,10 @@ A simple meteor (https://www.meteor.com/) based app. Uses Iron router for routin
 
 To run: 
 --
+Install Iron Router package
 1. meteor add iron:router 
 --
+
 2. meteor 
         
 browse to : http://localhost:3000

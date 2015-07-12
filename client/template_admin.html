@@ -1,0 +1,48 @@
+<template name="admin">
+
+	<a  name="services"></a>
+    <div class="content-section-a content-wrap">
+<br/><br/><br/><br/>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-sm-6">
+                     <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">App Admin</h2>
+                     
+					 
+		            <!--FORM -->			 
+	
+				  <form class="down-time">
+
+       			    <label for="time"> Enter Down Time &nbsp;&nbsp;(Eg:6.00 PM to 7:00 PM PST, 20 Mar 2015) </label> <br/>
+		        	<input type="text" name="down_time" placeholder="Enter down time period in the above format" style="width:70%;"/> 
+						
+					<br/><br/>
+						
+					<label for="time"> Admin Code (welcome123)</label> <br/>
+					<input type="password" name="admin_code" placeholder="Enter admin code" style="width:70%;"/>
+					
+					<br/><br/>
+					
+					<input type="submit" value="Update Down Time">  &nbsp; <span id="msg" style="color:red"> </span>
+					
+				 </form>
+										 
+					 
+					 
+					 
+					 
+                </div>
+                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                    <img class="img-responsive" src="img/Down-for-Maintenance.jpg" alt="">
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+
+{{>footer}}
+</template>
